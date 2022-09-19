@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-const Home = () => {
+const analitics = () => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>analitics</title>
       </Head>
     </div>
   );
 };
 
-export default Home;
+export default analitics;

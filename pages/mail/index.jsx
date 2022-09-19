@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-const Home = () => {
+const mail = () => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>mail</title>
       </Head>
     </div>
   );
 };
 
-export default Home;
+export default mail;

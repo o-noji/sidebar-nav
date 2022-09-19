@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-const Home = () => {
+const rocket = () => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>rocket</title>
       </Head>
     </div>
   );
 };
 
-export default Home;
+export default rocket;
