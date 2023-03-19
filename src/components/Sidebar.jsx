@@ -1,10 +1,12 @@
 import React from "react";
 import ActiveLink from "src/components/ActiveLink";
 import { SidebarData } from "src/components/SidebarData";
+import SidebarIcon from "./SidebarIcon";
 
 function Sidebar() {
   return (
     <div className="Sidebar">
+      <SidebarIcon />
       <ul className="sideBarList">
         {SidebarData.map((value, key) => {
           return (

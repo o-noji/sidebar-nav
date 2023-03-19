@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
-import Icon from "src/images/onoji.png";
+import Icon from "../images/onoji.png";
 
 function SidebarIcon() {
   return (
     <div className="SidebarIcon">
-      <images src={Icon} alt="icon" />
+      <Image src={Icon} alt="icon" />
     </div>
   );
 }
